@@ -1,0 +1,56 @@
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- logs / temp / backups ---
+*.log
+*.log.*.gz
+*_pid*.log
+*.tmp
+*.bak
+*.*.bak
+*.swp
+*~
+*.orig
+
+# --- secrets / env ---
+.env
+
+# --- Eclipse/EDT workspace (NEVER commit) ---
+.metadata/
+.recommenders/
+.externalToolBuilders/
+*.launch
+
+# --- EDT per-user prefs (usually noise) ---
+*/.settings/com._1c.g5.v8.dt.platform.services.core.prefs
+*/.settings/EnvLaunchModeIndex.prefs
+
+# --- 1C infobase / platform artifacts (not sources) ---
+*.1cd
+*.cfl
+*.lgd
+*.dt
+*.cf
+*.cfu
+*.cfe
+
+# Config dump metadata (often noisy, can be regenerated)
+**/ConfigDumpInfo.xml
+**/DumpFilesIndex.txt
+
+# --- VS Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# --- JetBrains ---
+.idea/
+*.iml
+*.ipr
+*.iws
