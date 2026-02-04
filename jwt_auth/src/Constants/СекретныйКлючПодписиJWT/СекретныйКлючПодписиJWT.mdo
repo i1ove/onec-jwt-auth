@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad6b452f-7bee-420e-b7f8-c8993113d483">
+  <producedTypes>
+    <managerType typeId="c1a3ccb7-ecf6-43ae-a76d-bdf2123066de" valueTypeId="69fcc763-8563-4c66-9adf-ed25c24d997e"/>
+    <valueManagerType typeId="db8da96e-51e1-46ac-863e-ca6fa7582f26" valueTypeId="55b661e3-6efe-4a08-b297-54cf56ee8745"/>
+    <valueKeyType typeId="5f07a3af-932b-48cb-b9cb-56ee03c59356" valueTypeId="0124acd9-50af-4bdf-a9e6-d24d2a958e48"/>
+  </producedTypes>
+  <name>СекретныйКлючПодписиJWT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секретный ключ подписи JWT</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

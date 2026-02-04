@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a2666de-5d52-46ae-934e-5fea5d12bc9b">
+  <producedTypes>
+    <selectionType typeId="8a70619b-9e9b-442a-8232-0814af63aa1d" valueTypeId="dae251f6-5afa-47fd-b191-409f61b0b6de"/>
+    <listType typeId="8b25967b-6384-46bf-8d71-a7528673eacb" valueTypeId="a22dc3d7-7952-4081-89b7-f02f79211a55"/>
+    <managerType typeId="3c50af32-0268-4f28-8874-5ca86ec4f8a5" valueTypeId="86cb7f88-181f-4dc9-bbdb-4ccd2b6756a5"/>
+    <recordSetType typeId="97873f1f-9a55-49f1-9b6f-89c784f84a6a" valueTypeId="f5de193d-fe70-4aee-b7dd-83a72057f405"/>
+    <recordKeyType typeId="315645ac-5bf9-440a-8573-9df2a3bb904a" valueTypeId="ba1b36f1-2d77-4fa9-aa65-0e0854d82f66"/>
+    <recordType typeId="01a549ee-6172-42b5-9258-323fb9d0861d" valueTypeId="afad3299-0a88-420c-bc4a-63712a7db518"/>
+    <recordManagerType typeId="e90d3508-6f01-40fd-a201-f78d410ec4fe" valueTypeId="62855c9c-8e3c-49a0-80d8-1facf43e7db0"/>
+  </producedTypes>
+  <name>ПолитикиДоступаОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Политики доступа операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c2070bd0-779b-4be8-a57a-22eb5d39f3d0">
+    <name>ТребуемаяОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуемая область</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбластиДоступа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="78c9028c-dbc4-448f-8f4b-6af40d8f6667">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

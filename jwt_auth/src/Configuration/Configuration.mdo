@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c08b247-23d2-496b-9202-574531a6a318">
+  <name>JWTАвторизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>JWT Авторизация</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="10b24994-b9f8-41b0-b7ec-59a8e12f39cf"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="dd1773e7-d0e9-4e47-843b-341d9e047c48"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3a5dec8f-834f-489b-b06d-70dc5b97c30f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b999420b-7de6-485d-91b5-f033d7b5419f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4181b343-eba2-44dd-90ce-f29ac9da0125"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7f658c05-5a7b-4771-8637-dfec4ae6baf0"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a9a5853f-12c4-4fa1-80d1-d8d18c71a80e"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Желтый клуб</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <copyright>
+    <key>ru</key>
+    <value>https://t.me/yellowclub_official</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>Желтый клуб</value>
+  </vendorInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="f510f1b9-6e08-4fcb-ae8d-182a183d8ee3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.JWT</subsystems>
+  <roles>Role.ВсеПрава</roles>
+  <roles>Role.ВыдачаJWT</roles>
+  <commonModules>CommonModule.Basic_Логика</commonModules>
+  <commonModules>CommonModule.HTTPМапперОшибокAPI</commonModules>
+  <commonModules>CommonModule.HTTPОтветчикAPI</commonModules>
+  <commonModules>CommonModule.HTTPПротоколAPI</commonModules>
+  <commonModules>CommonModule.JWT_Логика</commonModules>
+  <commonModules>CommonModule.PAT_Логика</commonModules>
+  <commonModules>CommonModule.АдаптерВремени</commonModules>
+  <commonModules>CommonModule.АдаптерКлючПодписи</commonModules>
+  <commonModules>CommonModule.АдаптерКонтакты</commonModules>
+  <commonModules>CommonModule.АдаптерКриптография1С</commonModules>
+  <commonModules>CommonModule.АдаптерПользователи</commonModules>
+  <commonModules>CommonModule.АдаптерПользователиИБ</commonModules>
+  <commonModules>CommonModule.АдаптерРегистрJWTСессий</commonModules>
+  <commonModules>CommonModule.АдаптерРегистрPAT</commonModules>
+  <commonModules>CommonModule.АдаптерРегистрОбластей</commonModules>
+  <commonModules>CommonModule.АдаптерХраненияТокена</commonModules>
+  <commonModules>CommonModule.АдаптерЧтенияТокена</commonModules>
+  <commonModules>CommonModule.КомпозицияPAT</commonModules>
+  <commonModules>CommonModule.КомпозицияАвторизацияAPI</commonModules>
+  <commonModules>CommonModule.КомпозицияДоступа</commonModules>
+  <commonModules>CommonModule.КомпозицияСвязиПользователяИПользователяИБ</commonModules>
+  <commonModules>CommonModule.КомпозицияХранениеТокенов</commonModules>
+  <commonModules>CommonModule.КомпозицияЧатыAPI</commonModules>
+  <commonModules>CommonModule.Контракт_GET_ПолучениеСпискаКонтактов</commonModules>
+  <commonModules>CommonModule.Контракт_POST_Аутентификация</commonModules>
+  <commonModules>CommonModule.КонтроллерВыдачиТокенаAPI</commonModules>
+  <commonModules>CommonModule.КонтроллерГенерацияPAT</commonModules>
+  <commonModules>CommonModule.КонтроллерДоступаAPI</commonModules>
+  <commonModules>CommonModule.КонтроллерИмпортаТокена</commonModules>
+  <commonModules>CommonModule.КонтроллерПолученияСпискаКонтактов</commonModules>
+  <commonModules>CommonModule.КонтроллерСвязиПользователяИПользователяИБ</commonModules>
+  <commonModules>CommonModule.ЛогированиеAPI</commonModules>
+  <commonModules>CommonModule.МаршрутизаторАутентификации</commonModules>
+  <commonModules>CommonModule.ОперацииAPI</commonModules>
+  <commonModules>CommonModule.ОшибкиПриложения</commonModules>
+  <commonModules>CommonModule.ПайплайнAPI</commonModules>
+  <commonModules>CommonModule.ПарсерAuthorization</commonModules>
+  <commonModules>CommonModule.ПолитикаJWT</commonModules>
+  <commonModules>CommonModule.ПолитикаОпераций</commonModules>
+  <commonModules>CommonModule.ПрезентерВыдачиТокенаAPI</commonModules>
+  <commonModules>CommonModule.ПрезентерПолученияСпискаКонтактов</commonModules>
+  <commonModules>CommonModule.ПровайдерJWT</commonModules>
+  <commonModules>CommonModule.СценарийАутентификацияBasic</commonModules>
+  <commonModules>CommonModule.СценарийАутентификацияBearer</commonModules>
+  <commonModules>CommonModule.СценарийАутентификацияPAT</commonModules>
+  <commonModules>CommonModule.СценарийВыдачаJWT</commonModules>
+  <commonModules>CommonModule.СценарийГенерацияPAT</commonModules>
+  <commonModules>CommonModule.СценарийИмпортТокена</commonModules>
+  <commonModules>CommonModule.СценарийПолучениеСпискаКонтактов</commonModules>
+  <commonModules>CommonModule.СценарийПостроениеКонтекстаДоступа</commonModules>
+  <commonModules>CommonModule.СценарийСвязываниеПользователяИПользователяИБ</commonModules>
+  <commonModules>CommonModule.УтилитыJSON</commonModules>
+  <commonModules>CommonModule.УтилитыКодирования</commonModules>
+  <commonModules>CommonModule.УтилитыСанитайзера</commonModules>
+  <commonModules>CommonModule.УтилитыСравнения</commonModules>
+  <httpServices>HTTPService.СервисАутентификации</httpServices>
+  <httpServices>HTTPService.Чаты</httpServices>
+  <constants>Constant.СекретныйКлючПодписиJWT</constants>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ОбластиДоступа</catalogs>
+  <dataProcessors>DataProcessor.Тестирование</dataProcessors>
+  <informationRegisters>InformationRegister.НазначенияОбластейДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.ПерсональныеТокеныДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.JWTСессии</informationRegisters>
+  <informationRegisters>InformationRegister.ПолитикиДоступаОпераций</informationRegisters>
+</mdclass:Configuration>

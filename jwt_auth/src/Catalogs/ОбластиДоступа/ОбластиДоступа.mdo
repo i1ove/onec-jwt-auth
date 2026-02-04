@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb27035d-922d-4660-9025-20c348f7ba47">
+  <producedTypes>
+    <objectType typeId="db3b4b84-199f-40ca-b5c2-e03e57747cb6" valueTypeId="587f91ab-249e-4a73-bd49-f7d3b8cc6f44"/>
+    <refType typeId="ecad8ca6-072b-4a18-9a5e-e7958da28c91" valueTypeId="382b2d9d-763d-49e6-bf04-b63371a4c635"/>
+    <selectionType typeId="c38d0efd-de57-45e2-afd7-970485470cf7" valueTypeId="c9b3054d-a36d-41a0-bd65-2729fc707c76"/>
+    <listType typeId="ec1df313-0b93-4275-b273-62aa8bd632ea" valueTypeId="5a94838a-eb5a-4f35-a1f7-7a95e4a5bbd0"/>
+    <managerType typeId="4c52f1db-f002-4928-9756-63dd2e08aaed" valueTypeId="ca69597b-5106-4e68-a0bb-797c18debbee"/>
+  </producedTypes>
+  <name>ОбластиДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3c4b4c00-d339-411c-ab0b-cc3ab2d84899">
+    <name>Активна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fdf3b6ed-e8e1-4123-9d1e-76a24e1374bf">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4deaff1-4a5c-45a4-b154-dbfdd3c53257">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

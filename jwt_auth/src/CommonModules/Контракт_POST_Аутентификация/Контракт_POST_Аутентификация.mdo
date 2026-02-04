@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e56cf499-7e4e-4caf-9159-e00c4e8497b6">
+  <name>Контракт_POST_Аутентификация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контракт POST аутентификация</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

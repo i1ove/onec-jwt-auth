@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3d285bf-b699-4e2b-9ce5-a4841cfa820e">
+  <name>СервисАутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис аутентификации</value>
+  </synonym>
+  <rootURL>auth</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="2aecbff2-d16d-42ec-95c5-ae86e9b33050">
+    <name>ВыдатьТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать токен</value>
+    </synonym>
+    <template>/token</template>
+    <methods uuid="1d615635-5e56-4c84-a5ac-8a54802586b0">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВыдатьТокенPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

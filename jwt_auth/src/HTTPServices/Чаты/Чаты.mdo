@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37d133b3-dabf-4885-b0a2-dc8f9658babe">
+  <name>Чаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чаты</value>
+  </synonym>
+  <rootURL>chats</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="416108fe-6eb5-4d3d-a723-b609a79ded3c">
+    <name>КонтактыДляЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакты для чата</value>
+    </synonym>
+    <template>/contacts</template>
+    <methods uuid="aa547cb2-3aca-4246-987c-0325adae502d">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>КонтактыДляЧатаget</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

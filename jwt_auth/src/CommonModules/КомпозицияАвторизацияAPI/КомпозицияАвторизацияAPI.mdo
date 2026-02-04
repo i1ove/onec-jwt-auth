@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6f578a8-67d6-4e4a-a89b-fec706b00b31">
+  <name>КомпозицияАвторизацияAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Композиция авторизация API</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

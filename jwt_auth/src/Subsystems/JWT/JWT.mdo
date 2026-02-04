@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebbf0c33-b98f-4c45-8419-098b4e931f59">
+  <name>JWT</name>
+  <synonym>
+    <key>ru</key>
+    <value>JWT</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Тестирование</content>
+  <content>InformationRegister.ПолитикиДоступаОпераций</content>
+  <content>InformationRegister.JWTСессии</content>
+  <content>InformationRegister.ПерсональныеТокеныДоступа</content>
+  <content>InformationRegister.НазначенияОбластейДоступа</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ОбластиДоступа</content>
+</mdclass:Subsystem>

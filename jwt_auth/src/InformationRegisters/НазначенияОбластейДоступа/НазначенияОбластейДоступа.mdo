@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a7f170e-14a9-426c-9e09-aa4e71fe5a26">
+  <producedTypes>
+    <selectionType typeId="23bf1e23-484b-4cdb-8b4c-258c7d49c453" valueTypeId="f441311b-3db7-45be-8137-9a10a34d3779"/>
+    <listType typeId="aa5c275d-42dc-4008-b88e-b7d8143ee422" valueTypeId="fa29dd9d-2947-4610-83fd-86e382a5ebe5"/>
+    <managerType typeId="c95c4d95-9134-4aab-8cd7-6bcb66e32ab8" valueTypeId="d2bae016-262c-4769-a1fc-d7847fdb8741"/>
+    <recordSetType typeId="8594814b-37e0-415f-bddc-3e210442085c" valueTypeId="0cab1f69-9403-419e-99a4-94f6585823d6"/>
+    <recordKeyType typeId="f389be9e-4ba2-48b8-8f29-fa28ec9d7cde" valueTypeId="39721043-8c75-494e-84c7-9463f4fd4b0c"/>
+    <recordType typeId="17449654-eefc-4094-b7cd-15515f27ad17" valueTypeId="04441073-c109-4abf-a687-bd8802e6dc96"/>
+    <recordManagerType typeId="8197eb28-138a-45ff-8682-7fb2bdd98257" valueTypeId="dbace938-7db3-48ac-9753-ecd03cf82496"/>
+  </producedTypes>
+  <name>НазначенияОбластейДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения областей доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e530ae84-e853-4603-83c9-610af1940c5d">
+    <name>Активна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="123c8d7c-3776-456f-963c-e1ad0f33af95">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d352b0db-f8c6-4070-9ac9-7e18488bcb79">
+    <name>Область</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбластиДоступа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

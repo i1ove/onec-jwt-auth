@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="805fbbb7-9fa2-4b6a-8432-8ef8c3845b37">
+  <name>АдаптерВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адаптер времени</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

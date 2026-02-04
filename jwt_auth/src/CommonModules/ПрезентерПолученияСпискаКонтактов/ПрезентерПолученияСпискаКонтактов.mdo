@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e2bb299-a605-498a-91bb-b80a9e14cf9c">
+  <name>ПрезентерПолученияСпискаКонтактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Презентер получения списка контактов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

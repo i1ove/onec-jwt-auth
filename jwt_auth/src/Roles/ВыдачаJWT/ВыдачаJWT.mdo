@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95f4f2d4-5755-4479-b5b2-238502edc430">
+  <name>ВыдачаJWT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача JWT</value>
+  </synonym>
+</mdclass:Role>

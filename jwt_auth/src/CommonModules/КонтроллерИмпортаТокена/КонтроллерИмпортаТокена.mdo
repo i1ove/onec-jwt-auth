@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fcc5e2b-32be-4612-95a9-919284f991af">
+  <name>КонтроллерИмпортаТокена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроллер импорта токена</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d2d94e0-06ce-4bcd-a288-3455eae98feb">
+  <name>СценарийАутентификацияBearer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарий аутентификация bearer</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

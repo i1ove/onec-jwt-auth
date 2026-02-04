@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d58baf46-65c9-4f5f-9df5-8def2db8cd1f">
+  <name>ПарсерAuthorization</name>
+  <synonym>
+    <key>ru</key>
+    <value>Парсер authorization</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

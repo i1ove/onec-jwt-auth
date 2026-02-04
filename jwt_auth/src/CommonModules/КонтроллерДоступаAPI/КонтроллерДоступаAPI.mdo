@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b42c8e79-c9c0-4b3c-9669-44cfc7803dea">
+  <name>КонтроллерДоступаAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроллер доступа API</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
