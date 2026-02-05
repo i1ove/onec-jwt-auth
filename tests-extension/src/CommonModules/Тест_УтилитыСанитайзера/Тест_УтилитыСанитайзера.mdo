@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b949898-9ec8-4aed-b065-51e7552ebf67">
+  <name>Тест_УтилитыСанитайзера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест утилиты санитайзера</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

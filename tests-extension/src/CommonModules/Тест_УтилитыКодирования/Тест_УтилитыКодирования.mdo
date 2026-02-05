@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcf7be14-394d-4c8d-b493-b98012e796bc">
+  <name>Тест_УтилитыКодирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест утилиты кодирования</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

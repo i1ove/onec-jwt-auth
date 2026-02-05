@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b47fdb2-453d-4aa9-af8b-74b624fb1eb8">
+  <name>Тест_АдаптерКриптография1С1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест адаптер криптография1 с1</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

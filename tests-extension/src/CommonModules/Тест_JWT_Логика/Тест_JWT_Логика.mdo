@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f75dfed-eaaa-49d1-a252-f6d4203c14eb">
+  <name>Тест_JWT_Логика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест JWT логика</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
